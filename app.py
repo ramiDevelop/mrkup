@@ -27,7 +27,7 @@ def calculate_price(input_price):
     base_price = input_price * multiplier
     
     # Add 35% markup and $15 to the base price
-    final_price_with_markup = (base_price * 1.2) + 15
+    final_price_with_markup = (base_price * 1.14)
     return round(final_price_with_markup)  # Rounded with no decimal
 
 # Streamlit app UI
